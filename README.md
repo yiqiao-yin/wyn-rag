@@ -1,74 +1,36 @@
-# Retrieval Augmented Generation Engine using LangChain, Streamlit, & Pinecone
+# 🚀 Retrieval Augmented Generation Engine with a Splash of LangChain, Streamlit, & Pinecone Magic! 🎩✨
 
-[Access application on Streamlit Cloud Platform](https://retrieval-augmented-generation.streamlit.app/)
+[🎉 Take a ride to our app on the Streamlit Cloud Platform! 🎠](https://wyn-rag.streamlit.app/)
 
-![Demo](data/demo.gif)
+![🍿 Grab your popcorn and watch the Demo!](data/demo.gif)
 
-## Overview
+## 🌈 Overview
 
-The Retrieval Augmented Engine (RAG) is a powerful tool for document retrieval, summarization, and interactive question-answering. This project utilizes LangChain, Streamlit, and Pinecone to provide a seamless web application for users to perform these tasks. With RAG, you can easily upload multiple PDF documents, generate vector embeddings for text within these documents, and perform conversational interactions with the documents. The chat history is also remembered for a more interactive experience.
+Meet RAG! The Retrieval Augmented Engine 🎡. Think of it as your magical librarian 🧙‍♂️. It fetches documents, summarizes them, and even chats with you about them! 📚✨ With a sprinkle of LangChain, a dash of Streamlit, and a touch of Pinecone, we've whipped up a web potion for you! 🍹 Upload all your mystical PDFs 📜, chat with them 🗣, and let's make some magic! 🌟 And guess what? RAG remembers all your magical conversations! 💌
 
+## ✨ Features
 
-## Features
+- **Streamlit Web Potion** 🍾: Brewed with Streamlit! It's web magic at your fingertips! 🌐✨
+- **Secret Keyholes 🗝**: Whisper your OpenAI & Pinecone secrets into our enchanted input fields! 🤫
+- **Document Portal 🌀**: Send your PDF scrolls into our world for some spellbinding analysis! 🪄
+- **Document Slicing 🔪**: We magically slice your big scrolls into bite-sized pieces, so they play nice with our spells! 🍰
+- **Vector Elixirs 🍶**: We turn text chunks into magical vector potions for some epic quest-answering! 🎯
+- **Choose Your Vector Vault 🗃**: Hide your vectors in Pinecone's treasury or keep them in your backyard! You decide! 🛡
+- **Chit-Chat Cauldron 🗨**: Talk to your docs, ask them riddles, and they'll whisper secrets back! 📖💬 And your magical chats? We've got them saved in our crystal ball! 🔮
 
-- **Streamlit Web App**: The project is built using Streamlit, providing an intuitive and interactive web interface for users.
-- **Input Fields**: Users can input essential credentials like OpenAI API key and Pinecone API key through dedicated input fields.
-- **Document Uploader**: Users can upload multiple PDF files, which are then processed for further analysis.
-- **Document Splitting**: The uploaded PDFs are split into smaller text chunks, ensuring compatibility with models with token limits.
-- **Vector Embeddings**: The text chunks are converted into vector embeddings, making it easier to perform retrieval and question-answering tasks.
-- **Flexible Vector Storage**: You can choose to store vector embeddings either in Pinecone or a local vector store, providing flexibility and control.
-- **Interactive Conversations**: Users can engage in interactive conversations with the documents, asking questions and receiving answers. The chat history is preserved for reference.
+## 📜 To Get Started...
 
+Before you embark on this quest, gather these artifacts 🎒:
 
-## Prerequisites
+- A flask of Python 3.7+ potion 🍾
+- A shard of LangChain 🌌
+- A sprinkle of Streamlit 🌠
+- A pinecone... err, I mean, Pinecone! 🌲
+- Your OpenAI spellbook key 🗝
+- Scrolls (or PDFs, as the mortals call them) 📜
 
-Before running the project, make sure you have the following prerequisites:
+## 👩‍🎤👨‍🎤 The Enchanters
 
-- Python 3.7+
-- LangChain
-- Streamlit
-- Pinecone
-- An OpenAI API key
-- PDF documents to upload
+🌟 [Yiqiao Yin, the Digital Mage](https://github.com/yiqiao-yin) 🌟
 
-## Usage
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/mirabdullahyaser/Retrieval-Augmented-Generation-Engine-with-LangChain-and-Streamlit.git
-   cd Retrieval-Augmented-Generation-Engine-with-LangChain-and-Streamlit
-   ```
-
-2. Install the required dependencies by running:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the Streamlit app:
-   ```bash
-   streamlit run src/rag_engine.py
-   ```
-
-4. Access the app by opening a web browser and navigating to the provided URL.
-
-5. Input your OpenAI API key, Pinecone API key, Pinecone environment, and Pinecone index name in the respective fields. You can provide them either in the sidebar of the application or place them in the **secrets.toml** file in the [.streamlit directory](src/.streamlit)
-
-6. Upload the PDF documents you want to analyze.
-
-7. Click the "Submit Documents" button to process the documents and generate vector embeddings.
-
-8. Engage in interactive conversations with the documents by typing your questions in the chat input box.
-
-## Contributors
-
-[Mir Abdullah Yaser](https://github.com/mirabdullahyaser)
-
-## Contact
-
-If you have any questions, suggestions, or would like to discuss this project further, feel free to get in touch with me:
-
-- [Email](mailto:mirabdullahyaser@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/mir-abdullah-yaser/)
-
-I'm open to collaboration and would be happy to connect!
+Let the magic begin! 🎉🎩✨
