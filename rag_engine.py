@@ -64,22 +64,22 @@ def input_fields():
     with st.sidebar:
         #
         if "openai_api_key" in st.secrets:
-            st.session_state.openai_api_key = st.secrets.openai_api_key
+            st.session_state.openai_api_key = st.secrets["openai_api_key"]
         else:
             st.session_state.openai_api_key = st.text_input("OpenAI API key", type="password")
         #
         if "pinecone_api_key" in st.secrets:
-            st.session_state.pinecone_api_key = st.secrets.pinecone_api_key
+            st.session_state.pinecone_api_key = st.secrets["pinecone_api_key"]
         else: 
             st.session_state.pinecone_api_key = st.text_input("Pinecone API key", type="password")
         #
         if "pinecone_env" in st.secrets:
-            st.session_state.pinecone_env = st.secrets.pinecone_env
+            st.session_state.pinecone_env = st.secrets["pinecone_env"]
         else:
             st.session_state.pinecone_env = st.text_input("Pinecone environment")
         #
         if "pinecone_index" in st.secrets:
-            st.session_state.pinecone_index = st.secrets.pinecone_index
+            st.session_state.pinecone_index = st.secrets["pinecone_index"]
         else:
             st.session_state.pinecone_index = st.text_input("Pinecone index name")
     #
